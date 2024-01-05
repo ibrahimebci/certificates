@@ -1,7 +1,5 @@
 # Step Certificates
-
 `step-ca` is an online certificate authority for secure, automated certificate management. It's the server counterpart to the [`step` CLI tool](https://github.com/smallstep/cli).
-
 You can use it to:
 - Issue X.509 certificates for your internal infrastructure:
   - HTTPS certificates that [work in browsers](https://smallstep.com/blog/step-v0-8-6-valid-HTTPS-certificates-for-dev-pre-prod.html) ([RFC5280](https://tools.ietf.org/html/rfc5280) and [CA/Browser Forum](https://cabforum.org/baseline-requirements-documents/) compliance)
@@ -15,16 +13,11 @@ You can use it to:
   - It has a JSON API
   - It comes with a [Go wrapper](./examples#user-content-basic-client-usage)
   - ... and there's a [command-line client](https://github.com/smallstep/cli) you can use in scripts!
-
 Whatever your use case, `step-ca` is easy to use and hard to misuse, thanks to [safe, sane defaults](https://smallstep.com/docs/step-ca/certificate-authority-server-production#sane-cryptographic-defaults).
-
 ---
-
 **Don't want to run your own CA?**
 To get up and running quickly, or as an alternative to running your own `step-ca` server, consider creating a [free hosted smallstep Certificate Manager authority](https://info.smallstep.com/certificate-manager-early-access-mvp/).
-
 ---
-
 **Questions? Find us in [Discussions](https://github.com/smallstep/certificates/discussions) or [Join our Discord](https://u.step.sm/discord).**
 
 [Website](https://smallstep.com/certificates) |
